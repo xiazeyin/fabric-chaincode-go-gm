@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/keepalive"
 	"github.com/stretchr/testify/assert"
+	pb "github.com/xiazeyin/fabric-protos-go-gm/peer"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/keepalive"
 )
 
 type testServer struct {

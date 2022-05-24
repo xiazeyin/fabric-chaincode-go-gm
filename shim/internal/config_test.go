@@ -11,14 +11,14 @@ import (
 	"testing"
 	"time"
 
-	. "gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/shim/internal"
-	peerpb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/keepalive"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
 	"github.com/stretchr/testify/assert"
+	. "github.com/xiazeyin/fabric-chaincode-go-gm/shim/internal"
+	peerpb "github.com/xiazeyin/fabric-protos-go-gm/peer"
+	tls "github.com/xiazeyin/gmgo/gmtls"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/keepalive"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 // TLS <key, cert, cacert> tuples for client and server were created

@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"sort"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/golang/protobuf/proto"
+	"github.com/xiazeyin/fabric-protos-go-gm/common"
+	"github.com/xiazeyin/fabric-protos-go-gm/msp"
 )
 
 // stateEP implements the KeyEndorsementPolicy

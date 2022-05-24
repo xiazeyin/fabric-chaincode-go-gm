@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/shim"
-	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/shimtest/mock"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/fabric-chaincode-go-gm/shim"
+	"github.com/xiazeyin/fabric-chaincode-go-gm/shimtest/mock"
 )
 
 //go:generate counterfeiter -o mock/chaincode.go --fake-name Chaincode . chaincode

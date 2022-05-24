@@ -7,10 +7,10 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/pkg/cid"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/fabric-chaincode-go-gm/pkg/cid"
+	"github.com/xiazeyin/fabric-protos-go-gm/msp"
 )
 
 const certWithOutAttrs = `-----BEGIN CERTIFICATE-----

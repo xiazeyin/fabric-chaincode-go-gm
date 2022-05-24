@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sync"
 
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
+	pb "github.com/xiazeyin/fabric-protos-go-gm/peer"
 )
 
 type state string

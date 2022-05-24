@@ -6,11 +6,11 @@ package statebased_test
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/pkg/statebased"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/msp"
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/fabric-chaincode-go-gm/pkg/statebased"
+	"github.com/xiazeyin/fabric-protos-go-gm/common"
+	"github.com/xiazeyin/fabric-protos-go-gm/msp"
 )
 
 func TestAddOrg(t *testing.T) {

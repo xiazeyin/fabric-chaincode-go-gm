@@ -4,7 +4,7 @@
 package shim
 
 import (
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
+	pb "github.com/xiazeyin/fabric-protos-go-gm/peer"
 )
 
 const (

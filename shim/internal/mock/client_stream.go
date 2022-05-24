@@ -4,7 +4,7 @@ package mock
 import (
 	"sync"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
+	"github.com/xiazeyin/fabric-protos-go-gm/peer"
 )
 
 type ClientStream struct {

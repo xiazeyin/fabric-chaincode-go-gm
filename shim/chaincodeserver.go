@@ -6,12 +6,12 @@ package shim
 import (
 	"errors"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
-	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/shim/internal"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
+	"github.com/xiazeyin/fabric-chaincode-go-gm/shim/internal"
+	pb "github.com/xiazeyin/fabric-protos-go-gm/peer"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/keepalive"
+	"github.com/xiazeyin/gmgo/grpc/keepalive"
 )
 
 // TLSProperties passed to ChaincodeServer

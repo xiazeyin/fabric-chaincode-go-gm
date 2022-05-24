@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/shim/internal/mock"
-	peerpb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
+	"github.com/xiazeyin/fabric-chaincode-go-gm/shim/internal/mock"
+	peerpb "github.com/xiazeyin/fabric-protos-go-gm/peer"
 
 	"github.com/stretchr/testify/assert"
 )

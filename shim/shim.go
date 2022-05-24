@@ -13,9 +13,9 @@ import (
 	"os"
 	"unicode/utf8"
 
-	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/shim/internal"
-	peerpb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
+	"github.com/xiazeyin/fabric-chaincode-go-gm/shim/internal"
+	peerpb "github.com/xiazeyin/fabric-protos-go-gm/peer"
 )
 
 const (

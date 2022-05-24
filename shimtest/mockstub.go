@@ -16,12 +16,12 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/shim"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/queryresult"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/timestamp"
+	"github.com/xiazeyin/fabric-chaincode-go-gm/shim"
+	"github.com/xiazeyin/fabric-protos-go-gm/ledger/queryresult"
+	pb "github.com/xiazeyin/fabric-protos-go-gm/peer"
 )
 
 const (

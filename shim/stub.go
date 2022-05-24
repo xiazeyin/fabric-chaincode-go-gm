@@ -11,11 +11,11 @@ import (
 	"os"
 	"unicode/utf8"
 
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/queryresult"
-	pb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/timestamp"
+	"github.com/xiazeyin/fabric-protos-go-gm/common"
+	"github.com/xiazeyin/fabric-protos-go-gm/ledger/queryresult"
+	pb "github.com/xiazeyin/fabric-protos-go-gm/peer"
 )
 
 // ChaincodeStub is an object passed to chaincode for shim side handling of

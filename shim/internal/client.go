@@ -7,12 +7,12 @@ import (
 	"context"
 	"time"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
-	peerpb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/keepalive"
+	peerpb "github.com/xiazeyin/fabric-protos-go-gm/peer"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/keepalive"
 )
 
 const (

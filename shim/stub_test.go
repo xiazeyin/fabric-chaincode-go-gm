@@ -9,11 +9,11 @@ import (
 	"os"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/fabric-chaincode-go-gm/shim/internal/mock"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	"gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/queryresult"
-	peerpb "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
 	"github.com/golang/protobuf/proto"
+	"github.com/xiazeyin/fabric-chaincode-go-gm/shim/internal/mock"
+	"github.com/xiazeyin/fabric-protos-go-gm/common"
+	"github.com/xiazeyin/fabric-protos-go-gm/ledger/queryresult"
+	peerpb "github.com/xiazeyin/fabric-protos-go-gm/peer"
 
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/timestamp"
